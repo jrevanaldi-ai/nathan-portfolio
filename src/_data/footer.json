@@ -1,21 +1,21 @@
 {
-  "quote": "Belajar untuk ==menikmati=={.highlight} sesuatu yang membuat diri-mu bosan",
+  "quote": "Creating immersive gaming experiences through ==innovation=={.highlight} and creative development",
   "brand": {
-    "title": "EmptyWork",
+    "title": "Nathan's Portfolio",
     "svg": "logo.svg"
   },
   "sublinks": [
     {
-      "linkTo": "/blog",
-      "linkName": "Blog"
+      "linkTo": "/projects",
+      "linkName": "Projects"
     },
     {
       "linkTo": "/contact",
       "linkName": "Contact"
     },
     {
-      "linkTo": "/multimedia",
-      "linkName": "Multimedia"
+      "linkTo": "/blog",
+      "linkName": "Blog"
     }
   ]
 }

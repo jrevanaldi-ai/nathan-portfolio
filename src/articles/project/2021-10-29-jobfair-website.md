@@ -1,11 +1,11 @@
 ---
-title: Jobfair's Website
-author: EmptyWork
-date: 2021-05-01
+title: 'Astralune MMORPG'
+author: Jonathan Revanaldi Alexandro Christian (Nathan)
+date: 2023-01-01
 endDate: false
-tags: ['project']
-image: /assets/images/jobfair.jpg
-description: An website that aim to help Ambonese looking for their new opportunties
-linkDemo: https://jobfair-gpmsyaloom.herokuapp.com/
-linkCode: false
+tags: ['project', 'game-development', 'mmorpg']
+image: 
+description: My main project - an MMORPG game that I'm developing as a 17-year-old developer. Still in development with ongoing improvements.
+linkDemo: https://astralune-game.com
+linkCode: https://github.com/jrevanaldi-ai/astralune-mmorpg
 ---

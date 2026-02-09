@@ -1,41 +1,47 @@
 ---
-title: The first day of interning in Maluku Province Bank Indonesia Representative Office
-description: As of November 1st 2022, until March next year I will be doing internship in Maluku Province Bank Indonesia Representative Office under Public Relations Team (SK)
-author: EmptyWork
+title: 'Building Astralune MMORPG: Overcoming Technical Challenges'
+description: Insights into the technical challenges I faced while developing my MMORPG game and how I overcame them.
+author: Jonathan Revanaldi Alexandro Christian (Nathan)
 draft: false
-date: 2022-11-02T11:40:37.394Z
+date: 2025-02-20T14:30:00.000Z
 tags:
-  - post
-  - bank_indonesia
-  - internship
-image: https://1.bp.blogspot.com/-tRRG9NHocUs/Xjttr2aObxI/AAAAAAAAHnE/wo0QiGR1g3I21jPbZglf9_2h-mrbf2w6ACLcBGAsYHQ/s640/image.jpg
+  - game-development
+  - technical-challenges
+  - mmorpg
+  - problem-solving
+image: 
 ---
 
 [[toc]]
 
-> The internship happens for the period _November 1st, 2022 until March 31st, 2023_
+## Introduction
 
-==The day starts around 7:42 am==, and I prepare to go to campus to meet up with my head of program study, who is also my mentor for the internship before we prepare to go to the Office<sup>[[1]](#definition)</sup>. _(Representative Office)_ located at [Pattimura Street, No. 7, Ambon, Maluku](https://goo.gl/maps/BnmtRKDAzr4k2VvC7).
+Developing Astralune MMORPG has been an incredible journey filled with learning opportunities and technical challenges. As a 17-year-old developer, I encountered numerous obstacles that tested my skills and determination. This article shares some of the key challenges I faced and how I overcame them.
 
-## The Meeting & Introduction
+## Scalability Issues
 
-==Around 8:30 am EIT==<sup>[[2]](#definition)</sup>, we leave the campus area to the destination place of my internship office<sup>[[1]](#definition)</sup>. Upon arriving at the gateway we wait for the HR department in the Lobby. After less than 5 minutes of waiting, we finally met with Ms. Tari from HR and also who will be my supervisor for the period of my internship after doing the handout and the signing of the MoU<sup>[[3]](#definition)</sup> between the faculty and the Office<sup>[[1]](#definition)</sup>, I followed Ms. Tari to do the tour of the office space and also introducing myself to the rest of the staff there.
+One of the first major challenges was designing a server architecture that could handle multiple players simultaneously. Initially, my game server would crash when more than a few players connected. I had to redesign the entire networking layer, implementing efficient data structures and algorithms to handle concurrent connections.
 
-### The Day
+I chose Rust for the backend because of its performance and memory safety features. Using the Rocket framework, I built a robust server that could handle hundreds of concurrent connections without crashing.
 
-That day, they were busy handling the archived documents, so I sat down while observing everyone doing their jobs. Around 5:00 pm EIT<sup>[[2]](#definition)</sup>, one of the kaka<sup>[[4]](#definition)</sup> asked me to help him check the list of items/documents, then the other kaka asked me to help him categorize and divide documents based on month and year to be grouped with a quarter of the year after that moving the grouped documents into the box, we were doing it for almost 2 hours, and then I went back at 7:12 pm.
+## Real-Time Communication
 
-### My Opinion
+Creating a real-time multiplayer experience required implementing WebSocket connections between the game clients and the server. Ensuring low latency and reliable communication was crucial for a good gaming experience.
 
-Nothing much happened on the first day, but it was not as bad and eventful as I imagined.
+I implemented custom protocols for game state synchronization, player movements, and combat mechanics. This involved extensive testing and optimization to ensure smooth gameplay even with many players online.
 
-## Definition
+## Database Optimization
 
-Due to the excessive use of long text in the paragraph, I decided to shorten most of the long text. It will be listed here using a number system.
+Storing and retrieving player data efficiently was another challenge. With thousands of players potentially interacting with the game world simultaneously, database queries needed to be optimized for speed.
 
-| #   | Def                                                  |
-| --- | ---------------------------------------------------- |
-| 1   | Maluku Province Bank Indonesia Representative Office |
-| 2   | Eastern Indonesia Time (WIT)                         |
-| 3   | Memorandum of Understanding                          |
-| 4   | Older Brother/Sister                                 |
+I used PostgreSQL for its reliability and advanced features, implementing indexing strategies and connection pooling to handle the load. I also implemented caching layers to reduce database load for frequently accessed data.
+
+## Cross-Platform Compatibility
+
+Making the game accessible across different platforms required careful consideration of compatibility issues. I had to ensure that the game ran smoothly on various devices with different specifications.
+
+Using JavaScript and TypeScript for the client-side code allowed me to create a web-based game that could run on multiple platforms. I implemented responsive design principles and optimized the game for different screen sizes and performance capabilities.
+
+## Conclusion
+
+Every challenge I faced while developing Astralune MMORPG taught me valuable lessons about software engineering and game development. These experiences have made me a better developer and prepared me for future projects. The journey continues, and I'm excited to see where it leads.

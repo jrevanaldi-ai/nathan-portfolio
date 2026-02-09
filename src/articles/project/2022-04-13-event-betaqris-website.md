@@ -1,13 +1,13 @@
 ---
-title: Event BetaQRIS' Website
-description: An event from Representative of Bank Indonesia in Moluccas as part
-  of Pre-Event FEKDI (Festival Ekonomi Keuangan Digital Indonesia) and part of
-  15 Juta Pengguna baru QRIS.
-date: 2022-03-25T03:41:29.743Z
-endDate: 2022-04-06T03:41:29.825Z
+title: 'Game Development Tools'
+description: 'Various tools and utilities I created to aid in the development of Astralune MMORPG and other projects.'
+date: 2024-03-10T00:00:00.000Z
+endDate: 2024-07-25T00:00:00.000Z
 tags:
   - project
-image: /assets/images/278038707_1063095627615778_2238829942384153761_n.jpg
-linkDemo: https://web.archive.org/web/20220909003651/https://betaqris.com/
-linkCode: https://www.instagram.com/p/CcAk3nbL3MX/
+  - game-development
+  - tools
+image: 
+linkDemo: https://github.com/jrevanaldi-ai/game-dev-tools
+linkCode: https://github.com/jrevanaldi-ai/game-dev-tools
 ---

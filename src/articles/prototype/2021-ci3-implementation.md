@@ -1,19 +1,25 @@
 ---
-title: CI3 - Implementation
+title: 'Game State Synchronization'
 status: 1
-description: Contoh implementasi dari CodeIgniter, adapun prototype ini
-  merupakan latihan yang dilakukan pada saat mengikuti kelas PBP.
-date: 2021-12-26T11:30:51.516Z
+description: 'A prototype demonstrating how game state is synchronized between players in Astralune MMORPG.'
+date: 2024-03-20T10:00:00.000Z
 tags:
   - prototype
-  - php
-  - codeigniter3
-linkDemo: http://pbp2stevarth.rf.gd/
-language: id
+  - game-development
+  - synchronization
+  - networking
+linkDemo: https://astralune-prototype-sync.com
+language: en
 code: |-
-  <?php
-      include_once "./earth/human.php";
-      $human = new Person("EmptyWork");
-      $happy = $human->getCurrentMood();
-      if(!$happy) echo "-.-";
+  const synchronizeGameState = async (playerId, gameState) => {
+    try {
+      // Broadcast state to nearby players
+      const nearbyPlayers = await getNearbyPlayers(playerId);
+      nearbyPlayers.forEach(otherPlayer => {
+        sendStateUpdate(otherPlayer, gameState);
+      });
+    } catch (error) {
+      console.error('State sync failed:', error);
+    }
+  };
 ---

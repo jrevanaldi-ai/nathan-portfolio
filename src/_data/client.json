@@ -1,35 +1,35 @@
 {
-  "title": "Clients",
-  "desc": "Trusted by these companies and organizations",
+  "title": "Projects",
+  "desc": "Games and applications I've developed",
   "clients": [
     {
-      "name": "Bank Indonesia",
-      "svg": "bank-indonesia.svg",
+      "name": "Astralune MMORPG",
+      "svg": "astralune-game-logo.svg",
       "absolutePath": true
     },
     {
-      "name": "Student Coding Club",
-      "svg": "scc.svg",
+      "name": "Astralune WhatsApp Bot",
+      "svg": "astralune-bot-logo.svg",
       "absolutePath": true
     },
     {
-      "name": "Generasi Baru Indonesia",
-      "svg": "genbi.svg",
+      "name": "Game Development Tools",
+      "svg": "game-tools-logo.svg",
       "absolutePath": true
     },
     {
-      "name": "Sekolah Luar Biasa",
-      "svg": "slbnania.svg",
+      "name": "Automation Scripts",
+      "svg": "automation-logo.svg",
       "absolutePath": true
     },
     {
-      "name": "Komite Olahraga National Indonesia Kota Ambon",
-      "svg": "koni.svg",
+      "name": "Web Applications",
+      "svg": "web-app-logo.svg",
       "absolutePath": true
     },
     {
-      "name": "7Mu - 7Mysteries",
-      "svg": "7mu.svg",
+      "name": "Educational Projects",
+      "svg": "education-logo.svg",
       "absolutePath": true
     }
   ]

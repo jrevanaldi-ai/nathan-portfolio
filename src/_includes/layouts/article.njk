@@ -5,8 +5,8 @@ styles:
   - 'highlight.css'
 ---
 
-{% set previousPost = collections.post | getPreviousCollectionItem(page) %}
-{% set nextPost = collections.post | getNextCollectionItem(page) %}
+{% set previousPost = collections.blog | getPreviousCollectionItem(page) %}
+{% set nextPost = collections.blog | getNextCollectionItem(page) %}
 <header class="header header_article">
   <img width="1920"
        height="1080"
@@ -53,7 +53,7 @@ styles:
         {{ content | safe }}
       </main>
       <section class="more">
-        {% if not nextPost.data.draft and nextPost %}
+        {% if nextPost and not nextPost.data.draft %}
           <div class="more-next">
             ← Next Post
             <br />
@@ -67,7 +67,7 @@ styles:
             <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a>
           </div>
         {% endif %}
-        {% if not previousPost.data.draft and previousPost %}
+        {% if previousPost and not previousPost.data.draft %}
           <div class="more-previous">
             Previous Post →
             <br />

@@ -1,7 +1,7 @@
 {
   "layout": "layouts/article.njk",
-  "tags": "post",
-  "author": "EmptyWork",
-  "image": "/assets/images/emptywork.my.id-default-post.jpg",
-  "draft": true
+  "tags": "blog",
+  "author": "Jonathan Revanaldi Alexandro Christian (Nathan)",
+  "image": "",
+  "draft": false
 }

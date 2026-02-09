@@ -1,8 +1,8 @@
 {
-  "title": "BikeForRupiah",
-  "subtitle": "Powered by ==BetaQRIS=={.highlight}",
-  "tags": ["Laravel", "PHP", "Javascript", "HTML", "CSS"],
-  "demoLink": "https://web.archive.org/web/20220909003819/https://betaqris.com/bfr",
-  "date": "2022-05-07T04:05:25.911Z",
-  "summary": "Simple registration system with QRCode Generator that will handle what happened with that QrCode based on the time and period of the event."
+  "title": "Astralune MMORPG",
+  "subtitle": "Created with ==Rust & JavaScript=={.highlight}",
+  "tags": ["Rust", "JavaScript", "TypeScript", "Golang", "Game Development"],
+  "demoLink": "https://astralune-game.com",
+  "date": "2023-06-15T10:30:45.123Z",
+  "summary": "An ambitious MMORPG game project that represents my journey as a young game developer, featuring persistent world, real-time combat, and player interactions."
 }

@@ -86,7 +86,7 @@ const setDark = () => {
  */
 
 console.log(
-  "%cEmptywork Console%c\nemptywork dot github dot io%c\n emptywork dot github dot io%c\nEnd of Console%c\n NOTE %c DON'T COPY ANY CODE INTO HERE",
+  "%cNathan Console%c\nnathan dot christmas%c\n nathan dot christmas%c\nEnd of Console%c\n NOTE %c DON'T COPY ANY CODE INTO HERE",
   'background-color:#cecece; margin: 0.15em; padding: 0.1em; border-radius: 0.2em; color:transparent; font-size:1rem',
   'background-color:rebeccapurple; margin: 0.15em; padding: 0.1em; border-radius: 0.2em; color:transparent; font-size:1rem',
   'font-size:1.2rem',

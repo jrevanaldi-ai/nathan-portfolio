@@ -1,13 +1,13 @@
 ---
-title: Event AmbonColorFunRun' Website
-description: An event from Representative of Bank Indonesia in Moluccas as part
-  of Pre-Event FEKDI (Festival Ekonomi Keuangan Digital Indonesia) and part of
-  15 Juta Pengguna baru QRIS.
-date: 2023-05-10T15:41:29.743Z
-endDate: 2023-05-20T09:41:29.825Z
+title: 'Automation Scripts'
+description: 'Various automation scripts and bots I developed for game management and community engagement.'
+date: 2024-08-01T00:00:00.000Z
+endDate: 2024-12-15T00:00:00.000Z
 tags:
   - project
-image: /assets/images/345349877_1186703082083563_922805273957392018_n.jpg
-linkDemo: https://web.archive.org/web/20230804130617/https://ambonfunrun.com/
-linkCode: https://www.instagram.com/p/CsBBHTardh9/
+  - automation
+  - scripting
+image: 
+linkDemo: https://github.com/jrevanaldi-ai/automation-scripts
+linkCode: https://github.com/jrevanaldi-ai/automation-scripts
 ---

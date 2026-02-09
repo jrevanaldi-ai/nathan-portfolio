@@ -1,21 +1,29 @@
 ---
-title: Sai Go in The Rain - Website
+title: 'Combat System Prototype'
 status: 1
-description: Preview dari implementasi routes pada CodeIgniter3, selain itu juga merupakan contoh website yang dibuat untuk Tugas pertama pada perkuliahan PBP.
-date: 2021-01-26
-language: id
+description: 'A prototype demonstrating the combat mechanics of Astralune MMORPG.'
+date: 2024-05-15T09:20:00.000Z
+language: en
 tags:
   - prototype
-  - html5
-  - css3
-  - javascript
-  - codeigniter3
-  - php
-linkDemo: http://eazbi.rf.gd
+  - game-development
+  - combat-system
+  - game-mechanics
+linkDemo: https://astralune-combat-prototype.com
 code: |-
-  const creditsIm = () => {
-    let credit = document.querySelector
-    ('.ew-credits');
-    credit.classList.toggle('show');
-  }
+  const calculateCombatResult = async (attacker, defender) => {
+    try {
+      const attackPower = attacker.strength + attacker.weapon.damage;
+      const defensePower = defender.agility + defender.armor.protection;
+      const damage = Math.max(1, attackPower - defensePower);
+      
+      return {
+        damage: damage,
+        criticalHit: Math.random() < attacker.luck
+      };
+    } catch (error) {
+      console.error('Combat calculation failed:', error);
+      return null;
+    }
+  };
 ---

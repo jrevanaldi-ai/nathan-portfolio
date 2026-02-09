@@ -1,7 +1,7 @@
 {
-  "name": "emptywork.github.io",
+  "name": "nathan-portfolio",
   "version": "1.0.0",
-  "description": "These are the template used by [Emptywork](https://emptywork.github.io)",
+  "description": "Personal portfolio of Nathan, a 17-year-old developer and creator of Astralune MMORPG game",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -22,15 +22,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EmptyWork/emptywork.github.io.git"
+    "url": "git+https://github.com/jrevanaldi-ai/astralune.git"
   },
-  "keywords": [],
-  "author": "emptywork",
+  "keywords": [
+    "portfolio",
+    "game-development",
+    "mmorpg",
+    "bot-development"
+  ],
+  "author": "Jonathan Revanaldi Alexandro Christian (Nathan)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/EmptyWork/emptywork.github.io/issues"
+    "url": "https://github.com/jrevanaldi-ai/astralune/issues"
   },
-  "homepage": "https://github.com/EmptyWork/emptywork.github.io#readme",
+  "homepage": "https://github.com/jrevanaldi-ai/astralune#readme",
   "devDependencies": {
     "@11ty/eleventy": "^3.1.1",
     "@11ty/eleventy-plugin-rss": "^2.0.4",
@@ -50,6 +55,8 @@
     "glob": "^11.0.3",
     "highlight.js": "^11.5.1",
     "highlightjs-code-diff": "^1.0.0",
+    "luxon": "^3.7.2",
+    "markdown-it": "^14.1.0",
     "markdown-it-anchor": "^9.2.0",
     "markdown-it-attrs": "^4.1.4",
     "markdown-it-bracketed-spans": "^1.0.1",

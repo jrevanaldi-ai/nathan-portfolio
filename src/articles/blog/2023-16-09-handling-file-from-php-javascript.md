@@ -1,22 +1,18 @@
 ---
-title: Handling file from PHP to Javascript
-description: One of the problem with using PHP and Javascript, is that handling
-  file(s) by both of the language(s) at the same time.
-author: EmptyWork
-draft: true
-date: 2023-09-16T10:11:37.394Z
+title: 'Balancing Studies and Game Development'
+description: 'How I balance my time between studying at SMK Karya Andalas Palembang and developing Astralune MMORPG.'
+author: Jonathan Revanaldi Alexandro Christian (Nathan)
+draft: false
+date: 2025-06-18T14:20:00.000Z
 tags:
-  - post
-  - thesis
-  - javascript
-  - php
-image: /assets/images/sunlight-landscape-forest-sunset-hill-nature-5912-wallhere.com.jpg
+  - game-development
+  - time-management
+  - student-life
+image: 
 ---
 
 [[toc]]
 
-> As one of the requirement for me to get my bachelor degree on _Computer Science_, I created [_Accessibility Testing Program (ATP)_](https://github.com/EmptyWork/lighthouse-accessibility-thesis) to help me concurrently testing multiple website using Google Lighthouse.
+> This article explores how I manage my time between my studies in accounting at SMK Karya Andalas Palembang and my passion for game development.
 
-The problem arose when I was trying to implemented GUI for my current _ATP_<sup>[[1]](#definition)</sup>,
-
-<!-- > [_Accessibility Testing Program (ATP)_](https://github.com/EmptyWork/lighthouse-accessibility-thesis) is a program that made by me as part of my Thesis for my _Computer Science_ bachelor degree. -->
+Balancing school and personal projects like Astralune MMORPG requires careful time management and dedication. Despite focusing on accounting in school, I continue to pursue my passion for game development and creating innovative gaming experiences.

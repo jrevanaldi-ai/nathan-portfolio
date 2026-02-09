@@ -1,186 +1,147 @@
 ---
-title: Formatting test for Markdown
-description: The purpose of this file is to test all the markdown support and syntaxs
-author: EmptyWork
+title: 'Documenting Game Development Process'
+description: 'How I document my game development process and share knowledge with the community.'
+author: Jonathan Revanaldi Alexandro Christian (Nathan)
 draft: false
-date: 2021-12-26T09:30:51.516Z
+date: 2025-04-05T11:45:00.000Z
 tags:
-  - post
-  - html
-  - javascript
-  - markdown
+  - game-development
+  - documentation
+  - knowledge-sharing
 ---
 
 [[toc]]
 
-# Main header
+# Documenting Game Development
 
-> Another example of the formatting, this is what supposed to be a blockqoute ==This is an example of the highlight=={.highlight}
+> Sharing knowledge about game development and the creation of Astralune MMORPG.
 
-## Code snippet
+## Development Notes
 
-> You can only do this if you have certain understanding regarding how to do the thing that are meant to be that thing.
->
-> > `this is an inline-quote` does it works? click here to [jump to code-snippet-2](#code-snippet-2), or you can just scroll down, also you can hover on the code blocks.
+> Documenting the development process helps track progress and share insights with others.
+
+> > Keeping detailed notes on implementation decisions:
 > >
 > > ```bash
-> > npm run install && npm run update
+> > git commit -m "Implement player movement system in Astralune MMORPG"
+> > git push origin develop
 > > ```
-> >
-> > > This a blockqoute inside a blockqoute inside a blockquote, it is a `block-ception`
-> > >
-> > > ```js
-> > > const isDarkThemePreferred =
-> > >   !localStorage.theme &&
-> > >   window.matchMedia('(prefers-color-scheme: dark)').matches
-> > > const dataset = document.documentElement.dataset // Getting all dataset
-> > > ```
 
-### Secondary header
+### Code Documentation
 
-The markdown is being handle by the markdown-it and eleventy, while some extra works is being done by vanila javascript.
+Well-documented code is essential for maintaining and extending game features.
 
-```sql
-SELECT * FROM `ikan`;
+```rust
+/// Handles player movement in the game world
+/// Updates position and broadcasts changes to nearby players
+fn handle_player_movement(&mut self, player_id: u32, new_position: Point) -> Result<(), String> {
+    // Implementation details
+    Ok(())
+}
 ```
 
-```sql
-DROP table `ikan`;
+```go
+// ProcessPlayerAction handles incoming player actions
+func ProcessPlayerAction(playerID string, action PlayerAction) error {
+    // Implementation details
+    return nil
+}
 ```
 
-#### Code snippet
+#### Development Workflows
 
-```python
-def greet(name):
-  print(f"Hello, {name}! Welcome to the Markdown formatting test.")
+Game development requires complex workflows for asset management, code integration, and testing.
 
-greet("Visitor")
-```
-
-Here is a simple JavaScript function that adds two numbers and logs the result.
-
-### Code snippet 2
+### Code Changes and Updates
 
 ```javascript
-function add(a, b) {
-  return a + b
-}
-
-console.log(add(2, 3)) // Output: 5
-```
-
-Here is a simple JavaScript function that adds two numbers and logs the result.
-
-```js
-const schedulerLoader = (schedules = {}) => {
-  let time = new Date()
-  let currentTime = time.getUTCHours() + 9
-  if (currentTime > 23) currentTime -= 23
-
-  if (replaceStatus) replaceStatus.textContent = 'Idle'
-
-  setTimeout(() => {
-    for (let i = 0; i < schedules.length; i++) {
-      let { day, endHour, startHour } = schedules[i]
-      if (!replaceStatus) return
-
-      if (days[currentDay] === toCapitalizeWord(day)) {
-        if (currentTime > startHour && currentTime < endHour) {
-          replaceStatus.textContent = 'Studying'
-        }
-        break
-      }
-      replaceStatus.textContent = 'Idle'
-    }
-  }, 0)
+// Old implementation of combat system
+function calculateDamage(attacker, defender) {
+  return attacker.attack - defender.defense;
 }
 ```
 
 ```diff:js
-const schedulerLoader = (schedules = {}) => {
-  let time = new Date()
-  let currentTime = time.getUTCHours() + 9
-  if (currentTime > 23) currentTime -= 23
-
-  if (replaceStatus) replaceStatus.textContent = 'Idle'
--  setTimeout(() => throw new Error(),0)
-+  setTimeout(() => {
-+    for (let i = 0; i < schedules.length; i++) {
-+      let { day, endHour, startHour } = schedules[i]
-+      if (!replaceStatus) return
-+
-+      if (days[currentDay] === toCapitalizeWord(day)) {
-+        if (currentTime > startHour && currentTime < endHour) {
-+          replaceStatus.textContent = 'Studying'
-+        }
-+        break
-+      }
-+      replaceStatus.textContent = 'Idle'
-+    }
-+  }, 0)
-```
-
-```md
-├─ docs
-│  ├─ .vuepress
-│  │  └─ config.js
-│  └─ README.md
-└─ package.json
-```
-And this is an example of markdown list:
-
-```md
-- line
-- line
-- line
-  1. stop it
-  2. what
-  3. don't worry
-```
-
-- line
-- line
-  - another list
-  - what is this?
-- line
-  1. stop it
-  2. what
-  3. don't worry
-
-#### Code snippet 3
-
-```js
-const Logger = (text, type = LoggerType.EMPTY) => {
-  const typeFormatted = type === LoggerType.EMPTY ? `${type}` : `${type}:`
-  if (isDevelopment) console.log(`${typeFormatted}`, text)
+// Updated implementation with critical hits and status effects
+function calculateDamage(attacker, defender) {
+- return attacker.attack - defender.defense;
++ let damage = attacker.attack - defender.defense;
++ if (Math.random() < attacker.critChance) {
++   damage *= 2;
++ }
++ return Math.max(damage, 1);
 }
 ```
 
-##### Last line header
+```md
+├─ astralune-mmorpg
+│  ├─ server
+│  │  └─ game_engine.rs
+│  ├─ client
+│  │  └─ renderer.js
+│  └─ docs
+└─ README.md
+```
 
-```css
-#body {
-  color: red;
+### Development Milestones
+
+- Initial concept
+- Core mechanics implementation
+  - Movement system
+  - Combat system
+- Alpha release
+  1. Basic gameplay
+  2. Multiplayer functionality
+  3. Beta testing
+
+#### Technical Implementation
+
+```rust
+pub struct GameState {
+    pub players: HashMap<u32, Player>,
+    pub npcs: Vec<Npc>,
+    pub worlds: Vec<GameWorld>,
+}
+
+impl GameState {
+    pub fn update(&mut self, delta_time: f32) {
+        // Update all game entities
+    }
 }
 ```
 
-Another test with json <kbd>c + d</kbd> <kbd>control + d</kbd> or <kbd>meta + d</kbd>.
+##### Community Engagement
+
+```javascript
+// Share development updates with the community
+const updateCommunity = (news) => {
+  console.log(`Astralune MMORPG Update: ${news}`);
+  // Post to social media and forums
+};
+```
+
+Development tracking:
 
 ```json
 {
-  "id": "s9RT21XS8399#!821838"
+  "project": "Astralune MMORPG",
+  "version": "0.5.0",
+  "features": {
+    "implemented": ["movement", "combat", "chat"],
+    "inProgress": ["quests", "guilds"],
+    "planned": ["siege warfare", "customization"]
+  }
 }
 ```
 
-What about error? you can do a combo of <kbd>Shift + A</kbd>, with this as the sole purpose of testing any random stuff.
+### Sharing Knowledge
 
-### Secondary header
+Documenting the development process helps other developers learn from my experiences.
 
-[#code-snippet](#code-snippet-1) is type of reference that we needs<sup>[[1]](#code-snippet-5)</sup>.
+## Development Metrics
 
-## Table?
-
-| Side            | Face                                           | Timeline              |
-| --------------- | ---------------------------------------------- | --------------------- |
-| Side            | Another one bites the dust                     | <sup>2025-02-01</sup> |
-| For The Emperor | Light up the sky with the flame of the emperor |                       |
+| Feature | Status | Timeline |
+|---------|--------|----------|
+| Character Creation | ✅ Complete | Jan 2024 |
+| Combat System | ✅ Complete | Mar 2024 |
+| Guild System | 🔄 In Progress | Jun 2024 |

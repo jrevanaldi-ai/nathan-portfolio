@@ -1,38 +1,53 @@
 ---
-title: 'Accessibility: The future of Web Development'
-description: While in recent years, many improvement to the website in general
-  start to be better day by day, and now with the new Web 3.0, there's one front
-  that seems to be forgotten by people.
-author: EmptyWork
+title: 'My Journey as a Young Developer: Creating Astralune MMORPG'
+description: The story of how I, Nathan, became a 17-year-old developer and created my own MMORPG game and bot.
+author: Jonathan Revanaldi Alexandro Christian (Nathan)
 draft: false
-date: 2022-04-13T04:05:25.911Z
+date: 2025-01-15T10:00:00.000Z
 tags:
-  - post
-image: /assets/images/accessibility.png
+  - game-development
+  - mmorpg
+  - bot-development
+  - personal-story
+image: 
 ---
 
 [[toc]]
 
-Right now, we are living in the future and at the crossroad of the _next-gen of Web Development_. Many said that **Web 3.0** or ==Blockchain-based (decentralized)== is the _future of web development_.
+## Introduction
 
-**Web 3.0 will probably dominate website development for the next decades**. Developer often _**neglects**_ one of the aspects of web development which is ==accessibility==.
+My name is Jonathan Revanaldi Alexandro Christian, but most people know me as Nathan. At 17 years old, I'm currently studying at SMK Karya Andalas Palembang in the accounting specialization, but my passion lies in game development and automation tools. This is the story of how I created Astralune MMORPG, a game that represents my journey as a young developer.
 
+## Early Interest in Programming
 
-## What is Accessibility?
+My interest in programming began when I was 14 years old. I started with simple scripts and gradually moved to more complex applications. My curiosity about how games work led me to explore game development, and eventually, I decided to create my own MMORPG.
 
-**Accessibility** can be explained to make applications more inclusive and easier to navigate for those with special needs. With that in mind, accessibility is significant in this time and age. More access to the internet across the globe also means more people with a wide range of special needs started to have access to the internet.
+## Creating Astralune MMORPG
 
-**Accessibility** itself isn’t a new concept in the ==programming world==. Ever since the code was invented, people have been trying to make it more accessible for everyone to start using it, starts from _command-line-based systems_ to _graphical-based systems_ slowly trying to integrate the aspect of ease of use with the complexity of a system itself, and we can’t deny that sometimes we need to sacrifice something and most of the time **“we”** prefer to make the program more complex with the sacrifice of the ease of use itself.
+Developing Astralune MMORPG was a challenging but rewarding experience. I used Rust with the Rocket framework for the backend, and for the game client, I leveraged my knowledge of JavaScript and TypeScript. The game features a persistent world where players can explore, battle, and interact with each other in real-time.
 
-## The Current state of Accessibility
+One of the biggest challenges was creating a scalable server architecture that could handle multiple players simultaneously. I spent countless hours optimizing the code and implementing efficient algorithms to ensure smooth gameplay.
 
-**Most developers did not plan for accessibility when creating a new system or website**, with [A11y](https://www.a11yproject.com/) as one of the initiatives launched by big companies such as Google, Facebook, and Microsoft to help address this issue and raise awareness or an [IBM-based](https://www.ibm.com/able/) initiative with the same purpose.
+## Developing the Astralune MMORPG WhatsApp Bot
 
-**Both projects** aim to help people make the web more accessible and easy to navigate. IBM is more focused on providing a tool to test and help develop a better experience for people with special needs. ==A11yProjects wants to give easy and concise steps== for developers to follow when creating a new system or website.
+To complement the game, I also created a WhatsApp bot that allows players to interact with the game world even when they're not playing. The bot provides updates, allows players to check their stats, and even enables some in-game actions. I used Golang with the Gin framework to build the bot's backend, taking advantage of its efficiency and performance.
 
-## The future of Accessibility
+## Learning and Growth
 
+Throughout this journey, I've learned numerous technologies and frameworks. My favorite tools include:
 
-Talking about the future of website development is quite a stretch in itself. I think the future state of accessibility is quite mixed. Because even with all initiatives launched by big companies and more developers caring about accessibility, however, ==the rise of Web 3.0 has accelerated the pace of development== and more people motivated to learn more about web development, but it also has become a distraction for newer developers who started learning web development and who are not familiar with accessibility could result in a long time for adoption by the masses.
+- **Rust**: With frameworks like Rocket and Leptos, Rust has become my go-to language for performance-critical applications.
+- **Golang**: For building efficient backend services, I rely on Gin and Echo frameworks.
+- **JavaScript/TypeScript**: For frontend development and bot creation, I use Next.js, Vue, Vite, Fastify, and Astro.
 
-==We can only hope== there will be an easy way for developers to entirely test and have more comprehensive knowledge of developing and maintaining a website with accessibility in mind.
+Each project has taught me valuable lessons about software architecture, user experience, and the importance of clean, maintainable code.
+
+## Future Plans
+
+As I continue my studies at SMK Karya Andalas Palembang, I plan to further develop Astralune MMORPG and potentially create new games. My goal is to establish myself as a professional game developer and contribute to the growing gaming industry.
+
+I'm constantly learning new technologies and exploring innovative ways to enhance the gaming experience. The journey has just begun, and I'm excited about what the future holds.
+
+## Conclusion
+
+Being a young developer has its challenges, but it's incredibly rewarding to see your creations come to life. Creating Astralune MMORPG has been a dream come true, and I hope to inspire other young developers to pursue their passions regardless of their age or circumstances.

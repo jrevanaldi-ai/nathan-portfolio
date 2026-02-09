@@ -1,93 +1,83 @@
 {
   "title": "About Me",
-  "bioHeader": "I am ==based in [Indonesia.](https://en.wikipedia.org/wiki/indonesia){target=_blank rel=\"noopener noreferrer\"}=={.highlight}",
+  "bioHeader": "I am ==Jonathan Revanaldi Alexandro Christian, known as Nathan=={.highlight}, a passionate 17-year-old developer and creator of Astralune MMORPG game and Astralune MMORPG WhatsApp bot.",
   "bio": [
-    "I earned my Bachelor's degree in Computer Science from the ==[Indonesian Christian University in the Moluccas](https://ukim.ac.id){target=_blank rel=\"noopener noreferrer\"}=={.highlight};",
-    " Currently, I am applying for scholarships to pursue my ==Master's and Ph.D=={.highlight};"
+    "I am currently studying at SMK Karya Andalas Palembang in the accounting specialization;",
+    " As a developer, I focus on creating innovative gaming experiences and automation tools."
   ],
   "languagesProficient": [
     {
       "level": "Advanced",
       "languages": [
-        "HTML5",
-        "CSS3",
-        "Javascript",
-        "PHP",
-        "SQL",
-        "JSON",
-        "TailwindCSS"
+        "Rust",
+        "Golang",
+        "JavaScript",
+        "TypeScript"
       ]
     },
     {
       "level": "Working Knowledge",
       "languages": [
-        "React",
-        "Vue",
-        "SCSS",
-        "Laravel",
-        "MongoDB",
-        "NodeJs",
-        "Git",
-        "Flutter"
+        "Python",
+        "C++",
+        "Lua",
+        "Solidity"
       ]
     },
     {
       "level": "Previous Experience",
       "languages": [
-        "C++",
-        "Python",
         "Java",
-        "Dart",
-        "Powershell",
-        "RouterOS/Mikrotik"
+        "C#",
+        "PHP",
+        "Ruby",
+        "Kotlin",
+        "Swift"
       ]
     },
     {
-      "level": "Misc<sup>[1]</sup>",
+      "level": "Specializations",
       "languages": [
-        "[IBM Equal Access](https://github.com/IBMa/equal-access){target=_blank rel=\"noopener noreferrer\"}",
-        "[W3 Accessibility (WAI-ARIA) 1.1](https://www.w3.org/TR/wai-aria/){target=_blank rel=\"noopener noreferrer\"}",
-        "[WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/){target=_blank rel=\"noopener noreferrer\"} <sup>[2]</sup>"
+        "Game Development",
+        "Bot Development",
+        "MMORPG Systems",
+        "Automation Tools"
       ]
     }
   ],
   "languagesExtraInfo": [
     {
       "type": "info",
-      "details": "[1] As of now, I think the knowledge about [==ARIA (Accessibility — Rich Internet Application)=={.highlight}](https://en.wikipedia.org/wiki/WAI-ARIA){target=_blank rel=\"noopener noreferrer\"} is essential; so I spend my free time researching, watching videos, and reading articles related to it."
+      "details": "I specialize in creating MMORPG games and automation tools using Rust, Golang, JavaScript, and TypeScript."
     },
     {
       "type": "continuous",
-      "details": "— If you also want to learn how to make the web accessable for everyone, visit [==https://www.accessibility-developer-guide.com/=={.highlight}](https://www.accessibility-developer-guide.com/){target=_blank rel=\"noopener noreferrer\"}; They provide an amazing list of actionable steps to improve your website's accessibility."
-    },
-    {
-      "type": "info",
-      "details": "[2] One of the best tools for ==conducting comprehensive accessibility checks=={.highlight} and ==providing detailed information=={.highlight} on how to fix issues with your website."
+      "details": "— Creator of Astralune MMORPG game and Astralune MMORPG WhatsApp bot."
     }
   ],
   "toolsProficient": [
     {
       "level": "Advanced",
-      "tools": ["Adobe Photoshop", "Visual Studio Code"]
+      "tools": ["Rocket (Rust)", "Leptos (Rust)", "Gin (Golang)", "Echo (Golang)", "Next.js", "Vue"]
     },
     {
       "level": "Working Knowledge",
       "tools": [
-        "Adobe After Effect",
-        "Resolve Davinci",
-        "Gimp",
-        "Figma",
-        "Atom",
-        "Github"
+        "Vite",
+        "Fastify",
+        "Astro",
+        "Docker",
+        "Git",
+        "VS Code"
       ]
     },
     {
       "level": "Previous Experience",
-      "tools": ["Blockbench", "Adobe Premiere", "Adobe Illustrator", "GitLab"]
+      "tools": ["Unity", "Unreal Engine", "Blender", "Figma"]
     },
     {
       "level": "Misc",
-      "tools": ["Hyper"]
+      "tools": ["Discord Bot SDK", "WhatsApp Business API", "PostgreSQL", "MongoDB"]
     }
   ]
 }

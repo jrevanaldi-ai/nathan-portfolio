@@ -1,11 +1,11 @@
 ---
-title: UKIMExpo'19 Website
-author: EmptyWork
-date: 2019-10-11
-endDate: 2019-10-28
-tags: ['project']
-image: /assets/images/expo.jpg
-description: A showcase website for promoting Informatics Faculty of Christian University of Indonesia, Moluccas
-linkDemo: https://emptywork.github.io/UKIMexpo/
-linkCode: https://github.com/EmptyWork/UKIMexpo
+title: 'Astralune MMORPG WhatsApp Bot'
+author: Jonathan Revanaldi Alexandro Christian (Nathan)
+date: 2023-06-01
+endDate: 2023-09-15
+tags: ['project', 'bot-development', 'automation']
+image: 
+description: A WhatsApp bot that allows players to interact with the Astralune MMORPG game world even when they're not playing.
+linkDemo: https://wa.me/astralune-bot
+linkCode: https://github.com/jrevanaldi-ai/astralune-whatsapp-bot
 ---

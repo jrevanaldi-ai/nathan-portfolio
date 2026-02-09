@@ -1,4 +1,4 @@
-Sitemap: https://www.emptywork.my.id/sitemap.xml
+Sitemap: https://nathan.christmas/sitemap.xml
 
 User-agent: *
 Disallow:

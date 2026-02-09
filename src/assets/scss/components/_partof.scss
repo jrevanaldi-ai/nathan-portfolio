@@ -80,6 +80,7 @@
           .organization-content {
             flex: 1 auto;
             margin-top: 2em;
+            padding-right: 8rem; /* Memberi ruang untuk tanggal di kanan */
           }
 
           @include mix.breakpoint-down('medium') {
@@ -136,6 +137,9 @@
         top: 1em;
         user-select: none;
         pointer-events: none;
+        background-color: var(--clr-background);
+        z-index: 1;
+        box-shadow: 0 0.1em 0.3em rgba(0, 0, 0, 0.1);
       }
     }
   }

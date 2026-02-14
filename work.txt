@@ -1,8 +1,0 @@
-ubah semua informasi nya menjadi bernama Jonathan Revanaldi Alexandro Christian dengan Panggilan Nathan. Saya seorang Developer dan saya juga pencipta dari sebuah game Astralune MMORPG dan bot whatsapp Astralune MMORPG juga. Keahlian saya yaitu Rust,Golang,Js dan Ts dan framework favorite ku di rust adalah rocket dan leptop,di golang gin dan echo kalo Js dan Ts next.js,vue,vite,fastify,astro. 
-github: jrevanaldi-ai 
-npm: nathan.devs
-ig: chrisjoo_uww
-LinkedIn: nathan.dev
-discord: nathan_astra
-seluruh informasi ya dan jika ada bagian yang belum terganti atau tidak termasuk kesini beritahu aku dan ubah url git di package.json jadi jrevanaldi-ai/astralune.git
-hapus semua bagian project dan beritahu saja bahwa saya seorang developer game dan belum ada project spesifik yang populer gitu dan saya adalah seorang mahasiswa di smk akuntansi khusus nya smk karya andalas palembang yang berjurusan akuntansi dan usia saya 17 tahun,dan untuk blog ya cerita profile saya aja dan hapus semua gambar gambar atau thumbnail dari pemilik sebelum nya menjadi placeholder image saja atau kosongan gitu.
